@@ -1,0 +1,129 @@
+[
+  {
+    "Name": "Row_Default",
+    "---": "──────────────────────────────────────────────────────────────────",
+    "NOTE": "This file is imported as a DataTable in Unreal using struct FCosmeticRegistryRow.",
+    "USAGE": "Add one row per cosmetic item. CosmeticID must be globally unique.",
+    "---2": "──────────────────────────────────────────────────────────────────"
+  },
+  {
+    "Name": "Outfit_RamirezBase",
+    "CosmeticID": "Outfit_RamirezBase",
+    "DisplayName": "Ramirez",
+    "Description": "Default female outfit. Chapter 1 Season 9 native.",
+    "CosmeticSlotTag": "Cosmetic.Slot.Character",
+    "RarityTag": "Cosmetic.Rarity.Common",
+    "BodyTypeTag": "Cosmetic.BodyType.FemaleDefault",
+    "SourceSeasonTag": "Cosmetic.SourceSeason.Chapter1.S9",
+    "BackportStateTag": "Cosmetic.Backport.Native",
+    "SkeletalMeshPath": "/Game/Cosmetics/Characters/Ramirez/SK_Ramirez",
+    "MaterialSlots": [
+      "/Game/Cosmetics/Characters/Ramirez/MI_Ramirez_Body",
+      "/Game/Cosmetics/Characters/Ramirez/MI_Ramirez_Head"
+    ],
+    "BackBlingSocketName": "BackBlingSocket",
+    "PreviewRotation": 0.0,
+    "bIsCustom": false,
+    "bIsBackported": false,
+    "AuthorNote": ""
+  },
+  {
+    "Name": "Outfit_JonesyBase",
+    "CosmeticID": "Outfit_JonesyBase",
+    "DisplayName": "Jonesy",
+    "Description": "Default male outfit. Chapter 1 Season 9 native.",
+    "CosmeticSlotTag": "Cosmetic.Slot.Character",
+    "RarityTag": "Cosmetic.Rarity.Common",
+    "BodyTypeTag": "Cosmetic.BodyType.MaleDefault",
+    "SourceSeasonTag": "Cosmetic.SourceSeason.Chapter1.S9",
+    "BackportStateTag": "Cosmetic.Backport.Native",
+    "SkeletalMeshPath": "/Game/Cosmetics/Characters/Jonesy/SK_Jonesy",
+    "MaterialSlots": [
+      "/Game/Cosmetics/Characters/Jonesy/MI_Jonesy_Body",
+      "/Game/Cosmetics/Characters/Jonesy/MI_Jonesy_Head"
+    ],
+    "BackBlingSocketName": "BackBlingSocket",
+    "PreviewRotation": 0.0,
+    "bIsCustom": false,
+    "bIsBackported": false,
+    "AuthorNote": ""
+  },
+  {
+    "Name": "Pickaxe_Default",
+    "CosmeticID": "Pickaxe_Default",
+    "DisplayName": "Default Pickaxe",
+    "Description": "Standard harvesting tool.",
+    "CosmeticSlotTag": "Cosmetic.Slot.Pickaxe",
+    "RarityTag": "Cosmetic.Rarity.Common",
+    "BodyTypeTag": "",
+    "SourceSeasonTag": "Cosmetic.SourceSeason.Chapter1.S9",
+    "BackportStateTag": "Cosmetic.Backport.Native",
+    "SkeletalMeshPath": "/Game/Cosmetics/Pickaxes/Default/SK_Pickaxe_Default",
+    "MaterialSlots": [
+      "/Game/Cosmetics/Pickaxes/Default/MI_Pickaxe_Default"
+    ],
+    "BackBlingSocketName": "",
+    "PreviewRotation": 0.0,
+    "bIsCustom": false,
+    "bIsBackported": false,
+    "AuthorNote": ""
+  },
+  {
+    "Name": "Glider_Default",
+    "CosmeticID": "Glider_Default",
+    "DisplayName": "Default Glider",
+    "Description": "Standard glider.",
+    "CosmeticSlotTag": "Cosmetic.Slot.Glider",
+    "RarityTag": "Cosmetic.Rarity.Common",
+    "BodyTypeTag": "",
+    "SourceSeasonTag": "Cosmetic.SourceSeason.Chapter1.S9",
+    "BackportStateTag": "Cosmetic.Backport.Native",
+    "SkeletalMeshPath": "/Game/Cosmetics/Gliders/Default/SK_Glider_Default",
+    "MaterialSlots": [
+      "/Game/Cosmetics/Gliders/Default/MI_Glider_Default"
+    ],
+    "BackBlingSocketName": "",
+    "PreviewRotation": 0.0,
+    "bIsCustom": false,
+    "bIsBackported": false,
+    "AuthorNote": ""
+  },
+  {
+    "Name": "BackBling_Default",
+    "CosmeticID": "BackBling_Default",
+    "DisplayName": "No Back Bling",
+    "Description": "Empty back bling slot.",
+    "CosmeticSlotTag": "Cosmetic.Slot.BackBling",
+    "RarityTag": "Cosmetic.Rarity.Common",
+    "BodyTypeTag": "",
+    "SourceSeasonTag": "Cosmetic.SourceSeason.Chapter1.S9",
+    "BackportStateTag": "Cosmetic.Backport.Native",
+    "SkeletalMeshPath": "",
+    "MaterialSlots": [],
+    "BackBlingSocketName": "BackBlingSocket",
+    "PreviewRotation": 0.0,
+    "bIsCustom": false,
+    "bIsBackported": false,
+    "AuthorNote": ""
+  },
+  {
+    "Name": "TEMPLATE_CustomOutfit",
+    "CosmeticID": "TEMPLATE_CustomOutfit",
+    "DisplayName": "My Custom Outfit",
+    "Description": "Replace this with your cosmetic description.",
+    "CosmeticSlotTag": "Cosmetic.Slot.Character",
+    "RarityTag": "Cosmetic.Rarity.Rare",
+    "BodyTypeTag": "Cosmetic.BodyType.MaleDefault",
+    "SourceSeasonTag": "Cosmetic.SourceSeason.Custom",
+    "BackportStateTag": "Cosmetic.Backport.Native",
+    "SkeletalMeshPath": "/Game/Cosmetics/Characters/_Template/SK_CustomCharacter",
+    "MaterialSlots": [
+      "/Game/Cosmetics/Characters/_Template/MI_CustomCharacter_Body"
+    ],
+    "BackBlingSocketName": "BackBlingSocket",
+    "PreviewRotation": 0.0,
+    "bIsCustom": true,
+    "bIsBackported": false,
+    "AuthorNote": "Duplicate this row for each new cosmetic. Set bIsCustom=true for fan-made items."
+  }
+]

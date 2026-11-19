@@ -1,0 +1,49 @@
+[
+  {
+    "Name": "Row_Info",
+    "NOTE": "Maps a source-season cosmetic CosmeticID to its backported S9 asset path and retarget profile used.",
+    "STRUCT": "FBackportMappingRow"
+  },
+  {
+    "Name": "BPMap_RamirezBase",
+    "SourceCosmeticID": "Outfit_RamirezBase",
+    "SourceSeason": "Chapter1_S9",
+    "SourceSkeletalMeshPath": "/Game/Cosmetics/Characters/Ramirez/SK_Ramirez",
+    "TargetSkeletalMeshPath": "/Game/Cosmetics/Characters/Ramirez/SK_Ramirez",
+    "RetargetProfilePath": "",
+    "bRetargetRequired": false,
+    "bMaterialRemapRequired": false,
+    "MaterialRemapNotes": "Native S9 mesh — no remapping needed.",
+    "BackportStatus": "Complete",
+    "LastUpdated": "2024-01-01",
+    "Notes": "Reference row — native cosmetic, no backport work required."
+  },
+  {
+    "Name": "BPMap_TEMPLATE_Ch2Skin",
+    "SourceCosmeticID": "REPLACE_WITH_SOURCE_COSMETIC_ID",
+    "SourceSeason": "Chapter2_S1",
+    "SourceSkeletalMeshPath": "/Game/Cosmetics/Characters/Backports/Ch2Example/SK_Ch2Example_Source",
+    "TargetSkeletalMeshPath": "/Game/Cosmetics/Characters/Backports/Ch2Example/SK_Ch2Example_S9",
+    "RetargetProfilePath": "/Game/Rigs/RetargetProfiles/IKR_Ch2_to_S9",
+    "bRetargetRequired": true,
+    "bMaterialRemapRequired": true,
+    "MaterialRemapNotes": "Remap Diffuse→T_Diffuse, Normal→T_Normal, Specular→T_Specular into M_CharacterBase instances.",
+    "BackportStatus": "Pending",
+    "LastUpdated": "2024-01-01",
+    "Notes": "Template row. Duplicate for each Chapter 2+ skin you want to backport."
+  },
+  {
+    "Name": "BPMap_TEMPLATE_Ch4Skin",
+    "SourceCosmeticID": "REPLACE_WITH_SOURCE_COSMETIC_ID",
+    "SourceSeason": "Chapter4_S1",
+    "SourceSkeletalMeshPath": "/Game/Cosmetics/Characters/Backports/Ch4Example/SK_Ch4Example_Source",
+    "TargetSkeletalMeshPath": "/Game/Cosmetics/Characters/Backports/Ch4Example/SK_Ch4Example_S9",
+    "RetargetProfilePath": "/Game/Rigs/RetargetProfiles/IKR_Ch4_to_S9",
+    "bRetargetRequired": true,
+    "bMaterialRemapRequired": true,
+    "MaterialRemapNotes": "Chapter 4 uses a different UV layout. See BackportPipeline docs.",
+    "BackportStatus": "Pending",
+    "LastUpdated": "2024-01-01",
+    "Notes": "Template row for Chapter 4/5 skins."
+  }
+]
