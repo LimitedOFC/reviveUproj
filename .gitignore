@@ -1,0 +1,26 @@
+# Unreal Engine build products
+Binaries/
+Build/
+Intermediate/
+Saved/
+DerivedDataCache/
+.vs/
+*.sln
+*.suo
+*.opensdf
+*.sdf
+*.sln
+*.vcxproj
+*.vcxproj.filters
+
+# UEFN specific
+.uefn/
+
+# OS cruft
+Thumbs.db
+.DS_Store
+*.swp
+*~
+
+# Compiled verse
+Content/**/*.verse.compiled
